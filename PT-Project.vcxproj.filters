@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="CMUgraphicsLib">
+      <UniqueIdentifier>{b6ef5278-5399-4c20-8631-3a47fa20276d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMUgraphicsLib\JPEG">
+      <UniqueIdentifier>{74881736-22be-4b44-90b6-09a29eb1aa85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMUgraphicsLib\auxil.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\CMUgraphics.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\image.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpegload.c">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\keyqueue.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\mousequeue.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\windowinput.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jcomapi.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jcparam.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdapimin.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdapistd.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdatasrc.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdcoefct.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdcolor.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jddctmgr.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdhuff.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdinput.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmainct.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmarker.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmaster.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdmerge.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdphuff.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdpostct.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdsample.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jdtrans.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jerror.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctflt.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctfst.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctint.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jidctred.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jmemmgr.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jmemnobs.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jquant1.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jquant2.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\jpeg\jutils.c">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClCompile>
+    <ClCompile Include="CMUgraphicsLib\colors.cpp">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClCompile>
+    <ClCompile Include="AcceptMortagage.cpp" />
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="AddCardAction.cpp" />
+    <ClCompile Include="AddCoinSet.cpp" />
+    <ClCompile Include="AddLadderAction.cpp" />
+    <ClCompile Include="AddSnakeAction.cpp" />
+    <ClCompile Include="Alex_8.cpp" />
+    <ClCompile Include="ApplicationManager.cpp" />
+    <ClCompile Include="Aswan_9.cpp" />
+    <ClCompile Include="BackwardCard_3.cpp" />
+    <ClCompile Include="BenefitAllCard_15.cpp" />
+    <ClCompile Include="Cairo_7.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="CellPosition.cpp" />
+    <ClCompile Include="CoinSet.cpp" />
+    <ClCompile Include="Copy.cpp" />
+    <ClCompile Include="Cut.cpp" />
+    <ClCompile Include="DecWalletCard_1.cpp" />
+    <ClCompile Include="DeleteGameObject.cpp" />
+    <ClCompile Include="FireCard_5.cpp" />
+    <ClCompile Include="FreezeCard_6.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="Hurghada_11.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="InputDiceValue.cpp" />
+    <ClCompile Include="Ladder.cpp" />
+    <ClCompile Include="LoseCityCard_13.cpp" />
+    <ClCompile Include="Luxor_10.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="NewGame.cpp" />
+    <ClCompile Include="NextCard_2.cpp" />
+    <ClCompile Include="OfferMortagage.cpp" />
+    <ClCompile Include="OpenGrid.cpp" />
+    <ClCompile Include="Output.cpp" />
+    <ClCompile Include="Paste.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PreventCard_4.cpp" />
+    <ClCompile Include="ReturnMortagage.cpp" />
+    <ClCompile Include="ReturnMortgagedCard_14.cpp" />
+    <ClCompile Include="RollDiceAction.cpp" />
+    <ClCompile Include="SaveGrid.cpp" />
+    <ClCompile Include="SellCity.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="TakeCityCard_12.cpp" />
+    <ClCompile Include="ToDesignMode.cpp" />
+    <ClCompile Include="ToPlayMode.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMUgraphicsLib\auxil.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\CMUgraphics.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\colors.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\error.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\image.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpegload.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\keyqueue.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\mousequeue.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\version.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\windowinput.h">
+      <Filter>CMUgraphicsLib</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jconfig.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jdct.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jdhuff.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jerror.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jinclude.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jmemsys.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jmorecfg.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jpegint.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jpeglib.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="CMUgraphicsLib\jpeg\jversion.h">
+      <Filter>CMUgraphicsLib\JPEG</Filter>
+    </ClInclude>
+    <ClInclude Include="AcceptMortagage.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="AddCardAction.h" />
+    <ClInclude Include="AddCoinSet.h" />
+    <ClInclude Include="AddLadderAction.h" />
+    <ClInclude Include="AddSnakeAction.h" />
+    <ClInclude Include="Alex_8.h" />
+    <ClInclude Include="ApplicationManager.h" />
+    <ClInclude Include="Aswan_9.h" />
+    <ClInclude Include="BackwardCard_3.h" />
+    <ClInclude Include="BenefitAllCard_15.h" />
+    <ClInclude Include="Cairo_7.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="CellPosition.h" />
+    <ClInclude Include="CoinSet.h" />
+    <ClInclude Include="Copy.h" />
+    <ClInclude Include="Cut.h" />
+    <ClInclude Include="DecWalletCard_1.h" />
+    <ClInclude Include="DEFS.h" />
+    <ClInclude Include="DeleteGameObject.h" />
+    <ClInclude Include="FireCard_5.h" />
+    <ClInclude Include="FreezeCard_6.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="Hurghada_11.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="InputDiceValue.h" />
+    <ClInclude Include="Ladder.h" />
+    <ClInclude Include="LoseCityCard_13.h" />
+    <ClInclude Include="Luxor_10.h" />
+    <ClInclude Include="NewGame.h" />
+    <ClInclude Include="NextCard_2.h" />
+    <ClInclude Include="OfferMortagage.h" />
+    <ClInclude Include="OpenGrid.h" />
+    <ClInclude Include="Output.h" />
+    <ClInclude Include="Paste.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PreventCard_4.h" />
+    <ClInclude Include="ReturnMortagage.h" />
+    <ClInclude Include="ReturnMortgagedCard_14.h" />
+    <ClInclude Include="RollDiceAction.h" />
+    <ClInclude Include="SaveGrid.h" />
+    <ClInclude Include="SellCity.h" />
+    <ClInclude Include="Snake.h" />
+    <ClInclude Include="TakeCityCard_12.h" />
+    <ClInclude Include="ToDesignMode.h" />
+    <ClInclude Include="ToPlayMode.h" />
+    <ClInclude Include="UI_Info.h" />
+  </ItemGroup>
+</Project>
